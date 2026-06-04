@@ -28,7 +28,7 @@
             margin-bottom: 20px;
         }
         h1 { margin: 0; font-size: 2rem; }
-        h2 { font-weight: normal; color: #aaa; margin-bottom: 30px; font-size: 1.2rem; }
+        h2 { font-weight: normal; color: #aaa; margin-bottom: 15px; font-size: 1.2rem; }
         .buttons {
             display: flex;
             flex-direction: column;
@@ -53,6 +53,13 @@
         .btn:hover {
             background-color: #444;
         }
+        .summary {
+        max-width: 600px;
+        padding: 0 20px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        color: #ccc; 
+        }
     </style>
 </head>
 <body>
@@ -61,8 +68,8 @@
     
     <h1>David Poussif</h1>
     <h2>Project Manager | Data Scientist</h2>
-    <h4>Technical Project Manager with 10+ years of experience bridging the gap between software development, data analytics, and business strategy in the SaaS industry. Now bringing the knowledge to create AI agents.</h4>
-
+    <p class="summary">Technical Project Manager with 10+ years of experience bridging the gap between software development, data analytics, and business strategy in the SaaS industry. Now bringing the knowledge to create AI agents.</p>
+    
     <div class="buttons">
         <a href="./data/CV - David Poussif.pdf" class="btn" download><i class="fa-solid fa-file-pdf"></i> CV</a>
         <a href="https://share.streamlit.io/user/jonid89" class="btn" target="_blank"><img src="https://cdn.simpleicons.org/streamlit/white" width="16" height="16" alt="Streamlit"> AI Projects</a>
